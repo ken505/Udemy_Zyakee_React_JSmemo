@@ -1,0 +1,78 @@
+body {
+  color: rgb(92, 92, 92);
+  user-select: none;
+}
+
+.input-area {
+  background: rgb(255, 205, 244);
+  width: 600px;
+  height: 130px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+input {
+  width: 150px;
+  border-radius: 16px;
+  border: none;
+  padding: 13px 16px;
+  outline: none;
+}
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 10px 16px;
+  background: #fff;
+  color: rgb(92, 92, 92);
+  margin: 4px;
+  outline: none;
+}
+
+button:hover {
+  background: #fff;
+  color: rgb(92, 92, 92);
+  cursor: pointer;
+  box-shadow: 2px 2px 4px gray;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+li {
+  margin: 4px;
+  list-style: none;
+}
+
+li:before {
+  content: "🐈";
+}
+
+.incomplete-area {
+  background: rgb(198, 244, 255);
+  width: 600px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+.complete-area {
+  background: rgb(195, 251, 197);
+  width: 600px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
